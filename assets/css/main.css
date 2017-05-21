@@ -47,3 +47,29 @@
 #promo2 p {
     padding: 10px;
 }
+
+
+/*esto afecta a index3*/
+
+#promo3 #block1,
+#block2,
+#block3 {
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+}
+
+#promo3 #block1,
+#block3 {
+    background-color: yellow;
+    block-size: 50px;
+}
+
+#promo3 #block2 {
+    background-color: #ed2251;
+    block-size: 50px;
+}
+
+#promo3 p {
+    padding: 10px;
+}
