@@ -99,3 +99,67 @@
 #promo4 p {
     margin: 0px;
 }
+
+
+/*Esto afecta a index5*/
+
+#pag5 {
+    background: grey;
+}
+
+#cajas {
+    margin: 20px;
+}
+
+.container #caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: #9f173d;
+    margin-bottom: 20px;
+    display: block;
+    padding: 20px;
+    border: 1px solid #bca0b1;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.container #caja2,
+#caja3,
+#caja4 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 20px;
+    border: 30px solid #bca0b1;
+    margin: -2px;
+    background-color: #9f173d;
+    border-right: 15px solid #bca0b1;
+    ;
+}
+
+.container #caja4 {
+    border-right: 30px solid #bca0b1;
+}
+
+.container #caja5,
+#caja6 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #bca0b1;
+    margin: 20px;
+    background-color: #9f173d;
+    margin-bottom: 20px;
+}
+
+.container #caja7 {
+    width: 100px;
+    height: 100px;
+    background-color: #9f173d;
+    margin-bottom: 20px;
+    display: block;
+    padding: 20px;
+    border: 1px solid #bca0b1;
+    margin: 20px;
+}
