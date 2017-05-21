@@ -1,20 +1,49 @@
-#promo {
+/*Esto afecta a todas las páginas del sitio*/
+
+* {
     font-family: 'Josefin Sans';
 }
 
-#block1,
-#block3 {
+
+/*esto afecta a index1*/
+
+#promo #block1 {
     background-color: yellow;
     block-size: 50px;
 }
 
-#block2 {
+#promo #block2 {
     background-color: #ed2251;
     border: black 1px solid;
     block-size: 50px;
 }
 
-p {
+#promo #block3 {
+    background-color: yellow;
+    block-size: 50px;
+}
+
+#promo p {
     padding: 10px;
     margin: 0px;
+}
+
+
+/*esto afecta a index2*/
+
+#promo2 #block1,
+#block3 {
+    background-color: yellow;
+    block-size: 50px;
+    width: 200px;
+}
+
+#promo2 #block2 {
+    background-color: #ed2251;
+    block-size: 50px;
+    width: 200px;
+}
+
+#promo2 p {
+    padding: 10px;
 }
