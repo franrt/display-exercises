@@ -55,21 +55,47 @@
 #block2,
 #block3 {
     display: inline-block;
-    height: 50px;
+    height: auto;
     margin: 10px;
+    padding: 0px 3px;
+    width: auto;
 }
 
 #promo3 #block1,
 #block3 {
     background-color: yellow;
-    block-size: 50px;
 }
 
 #promo3 #block2 {
     background-color: #ed2251;
-    block-size: 50px;
 }
 
 #promo3 p {
-    padding: 10px;
+    padding: 0px 3px;
+}
+
+
+/*esto afecta a index4*/
+
+#promo4 #block1,
+#block2,
+#block3 {
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+    padding: 0px 3px;
+    width: 250px;
+}
+
+#promo4 #block1,
+#block3 {
+    background-color: yellow;
+}
+
+#promo4 #block2 {
+    background-color: #ed2251;
+}
+
+#promo4 p {
+    padding: 0px 3px;
 }
